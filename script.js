@@ -7,9 +7,9 @@ let automaticUpdate = true;
 
 //get location and timestamp
 function getLocation(){
-    fetch("http://api.open-notify.org/iss-now.json").then((response) => response.json()).then((data) => {
-        longitudePosition.innerHTML = data.iss_position.longitude;
-        latitudePosition.innerHTML = data.iss_position.latitude;
+    fetch("//api.wheretheiss.at/v1/satellites/25544").then((response) => response.json()).then((data) => {
+        longitudePosition.innerHTML = data.longitude;
+        latitudePosition.innerHTML = data.latitude;
         timeOfUpdate.innerHTML = data.timestamp;
     }).catch((error) => {
         console.log("Error", error);
