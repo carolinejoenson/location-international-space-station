@@ -1,0 +1,60 @@
+html {
+    background: linear-gradient(to right, rgb(20, 0, 77), rgb(0, 180, 240));
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Righteous', cursive, sans-serif;
+    text-align: center;
+    padding-top: 75px;
+    color: yellow;
+}
+
+.longitude {
+    font-size: 1.5rem;
+    font-family: 'Righteous', cursive, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    color: yellow;
+}
+
+.latitude {
+    font-size: 1.5rem;
+    font-family: 'Righteous', cursive, sans-serif;
+    text-align: center;
+    color: yellow;
+}
+
+.time {
+    font-size: 1rem;
+    font-family: 'Righteous', cursive, sans-serif;
+    text-align: center;  
+    color: yellow;
+}
+
+footer p {
+    font-size: 1rem;
+    font-family: 'Righteous', cursive, sans-serif;
+    text-align: center;
+    padding-top: 40vh;
+}
+
+a {
+    color:black;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#automaticUpdateButton {
+    background-color: rgb(20, 0, 77);
+    padding: 8px;
+    font-family: 'Righteous', cursive, sans-serif;
+    font-size: 1.3rem;
+    border-radius: 3px;
+    color: yellow;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans:wght@300&family=Righteous&display=swap" rel="stylesheet">
+        <title>Current location of the International Space Station</title>
+    </head>
+    <body>
+        <header>
+            <h1>Location of the International Space Station</h1>
+        </header>
+        <section>
+            <div class="longitude">
+                <p>Longitude: <span id="longitudeText"></span></p>
+            </div>
+            <div class="latitude">
+                <p>Latitude: <span id="latitudeText"></span></p>
+            </div>
+            <div class="time">
+                <p>Unix timestamp: <span id="timeOfUpdate"></span></p>
+            </div>
+            <div class="button">
+            <button id="automaticUpdateButton">Stop/start update</button>
+            </div>
+        </section>
+        <footer>
+            <p>Using API from <a href="http://open-notify.org/" target="_blank">Open Notify</a> for location</p>
+        </footer>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
