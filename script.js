@@ -7,7 +7,7 @@ let automaticUpdate = true;
 
 //get location and timestamp
 function getLocation(){
-    fetch("//api.wheretheiss.at/v1/satellites/25544").then((response) => response.json()).then((data) => {
+    fetch("https://api.wheretheiss.at/v1/satellites/25544").then((response) => response.json()).then((data) => {
         longitudePosition.innerHTML = data.longitude;
         latitudePosition.innerHTML = data.latitude;
         timeOfUpdate.innerHTML = data.timestamp;
